@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>TODO</title>
+</head>
+<body>
+
+  <!-- <div class="card">
+    <div class="card-body"> 
+      <div class="input-group">
+
+        <input type="text" class="form-control" placeholder="Enter List Items" id="input">
+        <button id="add" onclick="add();">Add</button>
+      </div>
+    </div>
+  </div>
+  <ul id="root"></ul> -->
+<!-- 
+<div class="container text-center">
+  <div class="row row-col">
+    <div class="col-sm-6">
+      <div class="card border-primary mb-4 h-100">
+        <h3 class="card-header">My everything</h3>
+          <div class="card-body">
+            <div class="w-100 p-3">
+            <input type="text" class="form-control mb-4" placeholder="Enter List Items" id="input">
+            <button type="button" class="btn btn-outline-success btn-lg" id="add" onclick="add();">Add</button>
+            </div>
+          </div>
+          <h6 class="card-footer text-body-secondary">Enter Tasks</h6>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row row-col">
+        <div class="col-sm-6">
+          <div class="card border-primary mb-4 h-100">
+            <h3 class="card-header">Things To-Do</h3>
+              <div class="card-body">
+                <div class="w-50 p-3">
+                  <ul id="root"></ul>
+                </div>
+              </div>   
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="col-sm-6">
+      <div class="card border-info mb-3 h-100">
+        <h2 class="card-header">Education</h2>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Bachelor of Technology <br>
+              SVCN(JNTUA) -- 2021
+            </li>
+            <li class="list-group-item">Intermediate</li>
+            <li class="list-group-item">S.S.C</li>
+          </ul>
+        </div>
+      </div>
+     </div>
+
+     <div class="col-sm-6">
+      <div class="card border-info mb-3 h-100">
+        <h2 class="card-header">Education</h2>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Bachelor of Technology <br>
+              SVCN(JNTUA) -- 2021
+            </li>
+            <li class="list-group-item">Intermediate</li>
+            <li class="list-group-item">S.S.C</li>
+          </ul>
+        </div>
+      </div>
+     </div>
+ -->
+
+     <div class="container text-center">
+      <div class="row row-col-2 row-col-md-2 g-4">
+        <div class="col-sm-6">
+          <div class="card border-info mb-3">
+            <h2 class="card-header">My Things</h2>
+            <div class="card-body">
+              <div class="w-100 p-3">
+                <div class="form-floating">
+                  <textarea class="form-control mb-4" placeholder="Enter Tasks Here" id="input" style="height: 150px;" ></textarea>
+                  <label for="input"></label>
+                </div>
+              <!-- <input type="text" class="form-control mb-4" placeholder="Enter List Items" id="input"> -->
+              <button class="btn btn-outline-success btn-lg" id="add" onclick="add()">Add</button>
+              </div>
+            </div>
+          <h6 class="card-footer text-body-secondary">Enter Tasks</h6>
+          </div>
+         </div>
+         <div class="col-sm-6">
+          <div class="card border-info mb-3">
+            <h2 class="card-header">To-Do</h2>
+            <div class="card-body">
+              <div class="w-100 p-3">
+                <ul class="list-group" >
+                <p  class="text-uppercase" id="root"></p>
+                </ul>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div> 
+     </div>
+
+
+  <script src="todo.js"></script>
+</body>
+</html>
